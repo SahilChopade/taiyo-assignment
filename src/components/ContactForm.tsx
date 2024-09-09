@@ -51,7 +51,7 @@ const ContactForm: React.FC = () => {
     <div className="flex flex-col justify-center items-center">
       <h1 className="text-center text-xl">Create Contact</h1>
       <form className="p-2 flex flex-col gap-4 border border-black/80 rounded-md mt-8" onSubmit={handleSubmit}>
-        <div className="flex gap-4">
+        <div className="flex flex-col sm:flex-row gap-4">
           <input
             className="p-2 border border-gray-800 rounded-md"
             type="text"
