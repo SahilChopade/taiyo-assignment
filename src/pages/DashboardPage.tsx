@@ -4,7 +4,7 @@ import LineChart from "../components/LineChart";
 
 const DashboardPage = () => {
   return (
-    <div className="w-screen h-screen">
+    <div className="h-screen">
       <div>DashboardPage</div>
       <div className="grid grid-cols-2">
         <div>

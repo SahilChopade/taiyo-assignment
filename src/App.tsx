@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ContactPage } from "./pages/ContactPage";
 import ContactForm from "./components/ContactForm";
-import DashboardPage from "./components/Map";
+import DashboardPage from "./pages/DashboardPage";
 
 function App() {
   return (
